@@ -1,4 +1,8 @@
-# vpc_peering_terraform
+# inter_region_vpc_peering_terraform
+
+## What is VPC Peering?
+
+VPC peering is basically a network connection which enables us to connect multiple VPC's (region-region, account-account). VPC peering allows you to deploy cloud resources in a virtual network that you have defined, also data can be transferred across these resources with more security.
 
 ## Resources Used
  
