@@ -1,5 +1,5 @@
-access_key = "AKIA2CR7DPBBHGF33C5A"
-secret_key = "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"
+access_key = "ADD_ACCESS_KEY_HERE"
+secret_key = "ADD_SECRET_KEY_HERE"
 region_requestor = "ap-south-1" 
 region_acceptor = "us-east-1"
 cidr_requestor = "172.62.0.0/16"
