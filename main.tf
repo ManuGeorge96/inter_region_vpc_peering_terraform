@@ -129,7 +129,7 @@ resource "aws_route_table" "acceptor-Private-RTB" {
     nat_gateway_id = aws_nat_gateway.acceptor-NAT.id
   }
   route {
-    cidr_block = aws_subnet.requestor-Public-1.cidr_block
+    cidr_block = var.cidr_requestor
     vpc_peering_connection_id = aws_vpc_peering_connection.Peering.id
   }
   tags = {
@@ -156,7 +156,7 @@ resource "aws_route_table" "requestor-Public-RTB" {
     gateway_id = aws_internet_gateway.requestor-IGw.id
   }
   route {
-    cidr_block = aws_subnet.acceptor-Private-1.cidr_block
+    cidr_block = var.cidr_acceptor
     vpc_peering_connection_id = aws_vpc_peering_connection.Peering.id
   }
   tags = {
