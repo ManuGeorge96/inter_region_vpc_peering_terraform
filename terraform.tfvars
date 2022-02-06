@@ -1,5 +1,5 @@
-access_key = "ADD_ACCESS_KEY_HERE"
-secret_key = "ADD_SECRET_KEY_HERE"
+access_key = "ADD_ACCESS-KEY_HERE"
+secret_key = "ADD_SECRET-KEY_HERE"
 region_requestor = "ap-south-1" 
 region_acceptor = "us-east-1"
 cidr_requestor = "172.62.0.0/16"
