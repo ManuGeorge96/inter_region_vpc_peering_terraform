@@ -6,16 +6,16 @@ VPC peering is basically a network connection which enables us to connect multip
 
 ## Resources Used
  
-- Cloud VPC :- 2 
-- Peering Connection :- 1
-- Subnets :- 4 (2 Public on VPC 1, One Private and One Public on VPC 2)
-- Route Table :- 3 ( 1 Public Route Table for VPC 1, One Public-RTB and one Private-RTB on VPC2) 
-- Internet-Gateway :- 2
-- NAT Gateway :- 1
-- Elastic-IP :- 1
-- Key-Pair :- 1
-- Security Groups :- 3 
-- EC2 Instances :- 3
+- Cloud VPC
+- Peering Connection 
+- Subnets
+- Route Table
+- Internet-Gateway 
+- NAT Gateway
+- Elastic-IP
+- Key-Pair
+- Security Groups
+- EC2 Instances 
 
 ## About
 
