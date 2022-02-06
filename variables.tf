@@ -1,0 +1,9 @@
+variable "region_requestor" {}
+variable "region_acceptor" {}
+variable "cidr_requestor" {}
+variable "cidr_acceptor" {}
+variable "access_key" {}
+variable "secret_key" {}
+variable "type" {}
+variable "subnetr" {}
+variable "subneta" {}
