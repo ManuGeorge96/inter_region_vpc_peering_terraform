@@ -1,4 +1,5 @@
 #!/bin/bash
+yum update -y
 hostnamectl set-hostname APP.server --static
 yum install httpd php -y
 systemctl restart httpd.service; systemctl enable httpd.service
