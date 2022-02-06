@@ -15,11 +15,11 @@
 
 ## About
 
-This is a Fully automated Terraform codes which make use of creating Inter Region VPC Peering. Here we have an APP server and a SSH Server on the First VPC, and a Database server on Second VPC which is situated on a differnt AWS region.
+This is a Fully automated Terraform codes which make use of creating Inter Region VPC Peering. Here we have an APP server and a SSH Server on the First VPC, and a Database server on Second VPC which is situated on a different AWS region.
 
 Also, the Database server resides in a Private Network and the SSH access to Database server is made posssible only from SSH server deployed on VPC 1. This terraform code itself do the subnet calculations and also it will be using the latest available Amazon Linux AMI on all the 3 Insances.
 
-Included the option for applying User Data to APP and DB server, a user can edit them as their wish ( <b>app.sh</b> and <b>db.sh</b> ).
+Included the option for applying User Data for APP and DB server, a user can edit them as their wish ( <b>app.sh</b> and <b>db.sh</b> ).
 
 ## Project Outline
 
