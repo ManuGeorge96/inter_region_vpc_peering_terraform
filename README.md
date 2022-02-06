@@ -38,7 +38,7 @@ Included the option for applying User Data for APP and DB server, a user can edi
 ## How to use the code
 
  - ```sh  
-    git clone https://github.com/ManuGeorge96/vpc_peering_terraform.git
+    git clone https://github.com/ManuGeorge96/inter_region_vpc_peering_terraform.git
    ```
  - ```sh  
     cd vpc_peering_terraform
