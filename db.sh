@@ -1,3 +1,3 @@
 #!/bin/bash
-yum install mariadb -y
+yum install mariadb-server -y
 systemctl restart mariadb.service
