@@ -53,7 +53,7 @@ Included the option for applying User Data for APP and DB server, a user can edi
  - ```sh   
     terraform apply
    ```  
- - Once Copleted you will get the required IPs for the Instances on the terminal and you can SSH into the Instances using the key <b>peer</b>
+ - Once Completed you will get the required IPs for the Instances on the terminal and you can SSH into the Instances using the key <b>peer</b>
 
 ## Behind The Stage
 
