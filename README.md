@@ -41,7 +41,7 @@ Included the option for applying User Data for APP and DB server, a user can edi
     git clone https://github.com/ManuGeorge96/inter_region_vpc_peering_terraform.git
    ```
  - ```sh  
-    cd vpc_peering_terraform
+    cd inter_region_vpc_peering_terraform
    ```
    <br />
  - Update <b>terraform.tfvars</b> with values.
