@@ -1,3 +1,5 @@
+[![Generic badge](https://img.shields.io/badge/BUILD-PASS-BLUE.svg)](https://shields.io/)
+
 # inter_region_vpc_peering_terraform
 
 ## What is VPC Peering?
